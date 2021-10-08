@@ -203,10 +203,26 @@
     font-size: 24px;
     color: #54585a;
   }
+
   .task .trash:hover {
     color: #e74c3c;
     cursor: pointer;
   }
+
+  .task .edit {
+    font-size: 22px;
+    position: absolute;
+    top: 5px;
+    right: 36px;
+    font-family: "Lato";
+    color: #54585a;
+  }
+
+  .task .edit:hover {
+    color: #e74c3c;
+    cursor: pointer;
+  }
+
   .hold:active:hover {
     border: solid 3px #4786ff;
   }
